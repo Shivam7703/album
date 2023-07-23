@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.albums-container {text-align: center;
+  width: 100vw;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.albums-title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.albums-list {
+  list-style: none;
+  padding: 0;
+}
+
+.album-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.album-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-album {
+  margin-top: 20px;
+}
+
+.album-input {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Optional: Hover effect for buttons */
+.album-btn:hover {
+  background-color: #0056b3;
+}
